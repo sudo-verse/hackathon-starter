@@ -7,8 +7,8 @@ jobs:
     if: github.ref_name == github.event.repository.default_branch
     env:
       PRIVADO_API_TOKEN: ${{ secrets.PRIVADO_API_TOKEN }}
-      PRIVADO_API_ID: "1FF1D80BBF87E901A8530069"
-      PRIVADO_API_HOST: "https://t-ent-temp.privado.ai"
+      PRIVADO_API_ID: "1D8AE590BF202197952C978F"
+      PRIVADO_API_HOST: "https://transfer.gcp.privado-dev.com"
       PRIVADO_CI_PLATFORM: "GITHUB_ACTIONS"
       PRIVADO_DOCKER_IMAGE: 638117407428.dkr.ecr.ap-south-1.amazonaws.com/scanner-agent:latest
       PRIVADO_REPOSITORY_ID: ${{ github.repository_id }}
